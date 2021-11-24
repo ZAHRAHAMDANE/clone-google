@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arimo&family=Yuji+Boku&display=swap');
+body{
+    font-family: 'Arimo', sans-serif;
+    margin: 0px;
+    padding: 0;
+}
+
+/* Header */
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+header .left, header .right{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header p{
+    margin-right: 10px;
+    color: #787878;
+    cursor: pointer;
+}
+
+header p:hover{
+    color: #000;
+}
+
+header .right svg{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+header .right .user{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #595959;
+}
+/* Fin de header */
